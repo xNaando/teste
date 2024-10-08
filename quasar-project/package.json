@@ -8,20 +8,22 @@
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "build": "quasar build",
+    "deploy": "gh-pages -d dist/spa"
   },
   "dependencies": {
+    "@quasar/extras": "^1.16.4",
     "axios": "^1.2.1",
     "pinia": "^2.0.11",
-    "@quasar/extras": "^1.16.4",
     "quasar": "^2.8.0",
     "vue": "^3.2.29",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@types/node": "^12.20.21",
     "@quasar/app-vite": "^1.4.3",
+    "@types/node": "^12.20.21",
     "autoprefixer": "^10.4.2",
+    "gh-pages": "^6.1.1",
     "typescript": "^4.5.4"
   },
   "engines": {
