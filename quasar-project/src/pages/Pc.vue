@@ -265,7 +265,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12" id="servicos" style="margin-top: 100px">
+      <div class="col-12" id="contato" style="margin-top: 100px">
         <div class="row col-12 items-center">
           <div class="text-blue-4" style="font-size: 46px; font-weight: bold; padding-left: 30px">
             CONTATO
@@ -274,29 +274,80 @@
             <div style="height: 5px; background-color: #ccc; width: 100%;"></div>
           </div>
         </div>
-        <div class="row col-12">
-          <div class="col-12 text-center" style="font-size: 20px">
-            Av. Eugênio Fischer, 300 - Cing, Guarujá - SP, 11420-730
-          </div>
+        <div class="row col-12" style="margin-top: 50px">
           <div class="row col-12 justify-center items-center text-center" style="font-size: 20px; margin-top: 10px">
+            <a
+              href="https://www.google.com/maps/place/Av.+Eugênio+Fischer,+300+-+Cing,+Guarujá+-+SP,+11420-730"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="text-decoration: none; color: inherit"
+            >
+              <i class="fas fa-map-marker-alt" style="font-size: 24px; color: red; padding-right: 10px"></i>
+              Av. Eugênio Fischer, 300 - Cing, Guarujá - SP, 11420-730
+            </a>
+          </div>
+          <div
+            class="row col-12 justify-center items-center text-center"
+            style="font-size: 20px; margin-top: 10px; cursor: pointer"
+            @click="abrirWhatsApp('13974052840')"
+          >
             <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
             (13) 97405-2840
           </div>
-          <div class="row col-12 justify-center items-center text-center" style="font-size: 20px; margin-top: 10px">
+          <div
+            class="row col-12 justify-center items-center text-center"
+            style="font-size: 20px; margin-top: 10px; cursor: pointer"
+            @click="abrirWhatsApp('13996645670')"
+          >
             <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
             (13) 99664-5670
           </div>
-          <div class="row col-12 justify-center items-center text-center" style="font-size: 20px; margin-top: 10px">
+          <div
+            class="row col-12 justify-center items-center text-center"
+            style="font-size: 20px; margin-top: 10px; cursor: pointer"
+            @click="abrirWhatsApp('13997191309')"
+          >
             <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
             (13) 99719-1309
+          </div>
+          <div
+            class="row col-12 justify-center items-center text-center"
+            style="font-size: 20px; margin-top: 10px; cursor: pointer"
+            @click="abrirInstagram('w.e_servicosnauticos')"
+          >
+            <i class="fab fa-instagram" style="font-size: 24px; color: #E1306C; padding-right: 10px"></i>
+            w.e_servicosnauticos
           </div>
         </div>
       </div>
       <div class="col-12" id="localizacao" style="margin-top: 100px">
-        Localizacao
+        <div class="row col-12 items-center">
+          <div class="text-blue-4" style="font-size: 46px; font-weight: bold; padding-left: 30px">
+            LOCALIZAÇÃO
+          </div>
+          <div class="col" style="padding-left: 20px; padding-right: 20px;">
+            <div style="height: 5px; background-color: #ccc; width: 100%;"></div>
+          </div>
+        </div>
+        <div class="row col-12 justify-center items-center text-center" style="margin-top: 50px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.819508282658!2d-46.24340698444323!3d-23.95793098448871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03389eb90f0b%3A0x3f14a136ab96a979!2sAv.%20Eug%C3%AAnio%20Fischer%2C%20300%20-%20Cing%2C%20Guaruj%C3%A1%20-%20SP%2C%2011420-730!5e0!3m2!1sen!2sbr!4v1696781234567!5m2!1sen!2sbr"
+            width="95%"
+            height="600"
+            style="border: 0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </div>
-    <div>
+    <div
+      class="row col-12 bg-blue-4 items-center justify-center text-center text-white"
+      style="height: 70px; margin-top: 100px; font-size: 16px; font-weight: 500"
+    >
+      <i class="fas fa-copyright" style="margin-right: 5px;"></i>
+      W.E Serviços Náuticos - Todos os direitos reservados
     </div>
   </q-layout>
 </template>
@@ -332,11 +383,13 @@ import {ref} from "vue";
 
 const navigateTo = (section) => {
   if (section === 'home') {
-    window.scrollTo({top: 0, behavior: 'smooth'})
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   } else {
-    const element = document.getElementById(section)
+    const element = document.getElementById(section);
     if (element) {
-      element.scrollIntoView({behavior: 'smooth'})
+      const offset = 80; // Define a margem de 70px
+      const elementPosition = element.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top: elementPosition, behavior: 'smooth' });
     }
   }
 }
@@ -357,6 +410,11 @@ const img12Grande = ref(false)
 function abrirWhatsApp(numero) {
   const mensagem = encodeURIComponent('Olá, gostaria de solicitar um orçamento.');
   const url = `https://wa.me/${numero}?text=${mensagem}`;
+  window.open(url, '_blank');
+}
+
+function abrirInstagram(username) {
+  const url = `https://www.instagram.com/${username}`;
   window.open(url, '_blank');
 }
 </script>
