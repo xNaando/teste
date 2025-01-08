@@ -49,27 +49,23 @@
           </div>
           <div class="row col-12" style="font-size: 14px;">
             <div class="col-12">
-              A Nova Onda Pinturas foi fundada em 1962 por José Domingos Simões. Em 1990, seu filho Joacir José Simões,
-              assumiu o comando da empresa dando continuidade até os dias de hoje.
+              A W.E. Serviços Náuticos é uma empresa especializada em pintura e reforma de embarcações, localizada em
+              Guarujá, SP. Com mais de 12 anos de experiência no setor, nossa missão é proporcionar aos nossos clientes serviços de
+              alta qualidade, que garantam a durabilidade, segurança e beleza de suas embarcações. Contamos com uma
+              equipe altamente capacitada, dedicada e comprometida em atender às necessidades de cada cliente,
+              oferecendo soluções personalizadas para cada tipo de embarcação.
             </div>
             <div class="col-12">
-              Com o passar dos anos, a paixão por embarcações ficou cada vez maior. Em 2008 passamos a produzir
-              embarcações de esporte e recreio sob encomenda, sempre prezando pela qualidade e segurança.
+              Trabalhamos com pintura, manutenção, reparos estruturais e reformas completas, utilizando materiais de
+              primeira linha e tecnologia de ponta para garantir o melhor acabamento. Nossa infraestrutura é moderna e
+              adequada para atender embarcações de diversos portes, garantindo agilidade e eficiência em cada projeto.
+              Além disso, possuímos um atendimento personalizado, com foco na excelência e na satisfação total dos
+              nossos clientes.
             </div>
             <div class="col-12">
-              Nossa equipe é altamente treinada e capacitada para atuar nas áreas de laminação, pintura, marcenaria,
-              polimento, projeto, modelação e engenharia. Lidamos com qualquer parte da embarcação garantindo um
-              trabalho
-              da mais alta qualidade. Estamos localizados no Joinville Iate Clube e possuímos uma ampla infraestrutura.
-            </div>
-            <div class="col-12">
-              Possuímos carreta que suporta veleiro e embarcações de pequeno e grande porte. Além de nosso espaço,
-              contamos com uma equipe móvel e executamos trabalhos na sua própria marina ou estaleiro.
-            </div>
-            <div class="col-12">
-              Se pensa em comprar ou reformar a sua embarcação, nós podemos te atender! Conheça nossos produtos e
-              surpreenda-se com a qualidade e o acabamento. São barcos versáteis e seguros que podem ser facilmente
-              adequados ao gosto do cliente.
+              Na W.E. Serviços Náuticos, prezamos pela transparência e pelo comprometimento, proporcionando um trabalho
+              bem-feito e com alto padrão de qualidade. Se você busca serviços especializados e confiança, a W.E. é a
+              escolha certa para cuidar da sua embarcação com o profissionalismo que ela merece.
             </div>
           </div>
           <div class="col-12 text-blue-4" style="font-size: 18px; margin-top: 30px; font-weight: bold;">
@@ -274,53 +270,67 @@
             <div style="height: 5px; background-color: #ccc; width: 100%;"></div>
           </div>
         </div>
-        <div class="row col-12" style="margin-top: 50px">
-          <div class="row col-12 justify-center items-center text-center" style="font-size: 20px; margin-top: 10px">
-            <a
-              href="https://www.google.com/maps/place/Av.+Eugênio+Fischer,+300+-+Cing,+Guarujá+-+SP,+11420-730"
-              target="_blank"
-              rel="noopener noreferrer"
-              style="text-decoration: none; color: inherit"
+        <div class="row col-12 items-center" style="margin-top: 30px; margin-left: 70px">
+          <div class="col-12 text-center" style="margin-bottom: -100px">
+            <div class="col-12 text-blue-4" style="font-size: 40px; font-weight: bold">
+              Deseja obter um orçamento?
+            </div>
+            <div class="col-12" style="font-size: 40px; font-weight: bold">
+              Entre em contato!
+            </div>
+          </div>
+          <div class="row col-7 text-center items-center">
+            <div class="col-6" id="lottie-container"/>
+            <div class="col-6" id="lottie-container2"/>
+          </div>
+          <div class="col-5">
+            <div class="row col-12 items-center" style="font-size: 20px; margin-top: 10px">
+              <a
+                href="https://www.google.com/maps/place/Av.+Eugênio+Fischer,+300+-+Cing,+Guarujá+-+SP,+11420-730"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="text-decoration: none; color: inherit"
+              >
+                <i class="fas fa-map-marker-alt" style="font-size: 24px; color: red; padding-right: 10px"></i>
+                Av. Eugênio Fischer, 300 - Cing, Guarujá - SP, 11420-730
+              </a>
+            </div>
+            <div
+              class="row col-12 items-center"
+              style="font-size: 20px; margin-top: 10px; cursor: pointer"
+              @click="abrirWhatsApp('13974052840')"
             >
-              <i class="fas fa-map-marker-alt" style="font-size: 24px; color: red; padding-right: 10px"></i>
-              Av. Eugênio Fischer, 300 - Cing, Guarujá - SP, 11420-730
-            </a>
-          </div>
-          <div
-            class="row col-12 justify-center items-center text-center"
-            style="font-size: 20px; margin-top: 10px; cursor: pointer"
-            @click="abrirWhatsApp('13974052840')"
-          >
-            <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
-            (13) 97405-2840
-          </div>
-          <div
-            class="row col-12 justify-center items-center text-center"
-            style="font-size: 20px; margin-top: 10px; cursor: pointer"
-            @click="abrirWhatsApp('13996645670')"
-          >
-            <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
-            (13) 99664-5670
-          </div>
-          <div
-            class="row col-12 justify-center items-center text-center"
-            style="font-size: 20px; margin-top: 10px; cursor: pointer"
-            @click="abrirWhatsApp('13997191309')"
-          >
-            <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
-            (13) 99719-1309
-          </div>
-          <div
-            class="row col-12 justify-center items-center text-center"
-            style="font-size: 20px; margin-top: 10px; cursor: pointer"
-            @click="abrirInstagram('w.e_servicosnauticos')"
-          >
-            <i class="fab fa-instagram" style="font-size: 24px; color: #E1306C; padding-right: 10px"></i>
-            w.e_servicosnauticos
+              <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
+              (13) 97405-2840
+            </div>
+            <div
+              class="row col-12 items-center"
+              style="font-size: 20px; margin-top: 10px; cursor: pointer"
+              @click="abrirWhatsApp('13996645670')"
+            >
+              <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
+              (13) 99664-5670
+            </div>
+            <div
+              class="row col-12 items-center"
+              style="font-size: 20px; margin-top: 10px; cursor: pointer"
+              @click="abrirWhatsApp('13997191309')"
+            >
+              <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
+              (13) 99719-1309
+            </div>
+            <div
+              class="row col-12 items-center"
+              style="font-size: 20px; margin-top: 10px; cursor: pointer"
+              @click="abrirInstagram('w.e_servicosnauticos')"
+            >
+              <i class="fab fa-instagram" style="font-size: 24px; color: #E1306C; padding-right: 10px"></i>
+              w.e_servicosnauticos
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-12" id="localizacao" style="margin-top: 100px">
+      <div class="col-12" id="localizacao" style="margin-top: 50px">
         <div class="row col-12 items-center">
           <div class="text-blue-4" style="font-size: 46px; font-weight: bold; padding-left: 30px">
             LOCALIZAÇÃO
@@ -342,10 +352,8 @@
         </div>
       </div>
     </div>
-    <div
-      class="row col-12 bg-blue-4 items-center justify-center text-center text-white"
-      style="height: 70px; margin-top: 100px; font-size: 16px; font-weight: 500"
-    >
+    <div class="row col-12 bg-blue-4 items-center justify-center text-center text-white"
+         style="height: 70px; font-size: 16px; font-weight: 500; margin-top: 50px">
       <i class="fas fa-copyright" style="margin-right: 5px;"></i>
       W.E Serviços Náuticos - Todos os direitos reservados
     </div>
@@ -354,6 +362,8 @@
 
 <script setup>
 import '@fortawesome/fontawesome-free/css/all.css';
+import {onMounted} from 'vue';
+import lottie from 'lottie-web';
 import logo from '/public/images/logo.png'
 import sobrenos from '/public/images/sobrenos.png'
 import video from '/public/images/video.mp4'
@@ -379,17 +389,19 @@ import img1x8 from '/public/images/8.1.jpg'
 import img1x10 from '/public/images/10.1.jpg'
 import img1x11 from '/public/images/11.1.jpg'
 import img1x12 from '/public/images/12.1.jpg'
+import contato from '/public/images/contato.json'
+import seta from '/public/images/seta.json'
 import {ref} from "vue";
 
 const navigateTo = (section) => {
   if (section === 'home') {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({top: 0, behavior: 'smooth'});
   } else {
     const element = document.getElementById(section);
     if (element) {
       const offset = 80; // Define a margem de 70px
       const elementPosition = element.getBoundingClientRect().top + window.scrollY - offset;
-      window.scrollTo({ top: elementPosition, behavior: 'smooth' });
+      window.scrollTo({top: elementPosition, behavior: 'smooth'});
     }
   }
 }
@@ -417,6 +429,23 @@ function abrirInstagram(username) {
   const url = `https://www.instagram.com/${username}`;
   window.open(url, '_blank');
 }
+
+onMounted(() => {
+  lottie.loadAnimation({
+    container: document.getElementById('lottie-container'), // Contêiner onde a animação será renderizada
+    renderer: 'svg', // Formato da renderização
+    loop: true, // Define se a animação será em loop
+    autoplay: true, // Define se a animação será iniciada automaticamente
+    animationData: contato, // Use os dados da animação diretamente
+  });
+  lottie.loadAnimation({
+    container: document.getElementById('lottie-container2'), // Contêiner onde a animação será renderizada
+    renderer: 'svg', // Formato da renderização
+    loop: true, // Define se a animação será em loop
+    autoplay: true, // Define se a animação será iniciada automaticamente
+    animationData: seta, // Use os dados da animação diretamente
+  });
+});
 </script>
 
 <style scoped>
@@ -427,5 +456,10 @@ function abrirInstagram(username) {
 .q-btn {
   font-size: 16px;
   font-weight: 500;
+}
+
+#lottie-container {
+  width: 400px; /* Largura do contêiner */
+  height: 400px; /* Altura do contêiner */
 }
 </style>
