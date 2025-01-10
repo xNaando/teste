@@ -262,8 +262,9 @@
           </div>
         </div>
         <div class="row col-12 items-center">
-          <div class="row col-12 text-center items-center">
-            <div class="col-12" id="lottie-container"/>
+          <div class="row col-12 text-center justify-center items-center">
+            <div class="col-12" id="lottie-container3"></div>
+            <div class="col-12" style="margin-top: -150px; margin-bottom: -60px" id="lottie-container4"></div>
           </div>
           <div class="row col-12 text-center">
             <div class="row col-12 items-center text-center" style="font-size: 20px; margin-top: 10px">
@@ -396,13 +397,24 @@ function abrirInstagram(username) {
 }
 
 onMounted(() => {
-  lottie.loadAnimation({
-    container: document.getElementById('lottie-container'), // Contêiner onde a animação será renderizada
-    renderer: 'svg', // Formato da renderização
-    loop: true, // Define se a animação será em loop
-    autoplay: true, // Define se a animação será iniciada automaticamente
-    animationData: contato, // Use os dados da animação diretamente
-  });
+  if (!document.getElementById('lottie-container3').hasChildNodes()) {
+    lottie.loadAnimation({
+      container: document.getElementById('lottie-container3'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      animationData: contato,
+    });
+  }
+  if (!document.getElementById('lottie-container4').hasChildNodes()) {
+    lottie.loadAnimation({
+      container: document.getElementById('lottie-container4'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      animationData: seta2,
+    });
+  }
 });
 </script>
 
@@ -416,7 +428,12 @@ onMounted(() => {
   font-weight: 500;
 }
 
-#lottie-container {
+#lottie-container3 {
+  width: 360px; /* Largura do contêiner */
+  height: 360px; /* Altura do contêiner */
+}
+
+#lottie-container4 {
   width: 360px; /* Largura do contêiner */
   height: 360px; /* Altura do contêiner */
 }
