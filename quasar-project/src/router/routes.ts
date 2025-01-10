@@ -8,6 +8,10 @@ const routes: RouteRecordRaw[] = [
       { path: '', component: () => import('pages/IndexPage.vue') }
     ],
   },
+  {
+    path: '/oi',
+    component: () => import('layouts/MainLayout2.vue'),
+  },
 
   // Always leave this as last one,
   // but you can also remove it
