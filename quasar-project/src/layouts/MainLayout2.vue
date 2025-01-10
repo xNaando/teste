@@ -5,6 +5,10 @@
       <img class="foto" :src="img1" alt="img" />
       <img class="foto" :src="img2" alt="img" />
       <img class="foto" :src="img3" alt="img" />
+      <img class="foto" :src="img5" alt="img" />
+      <img class="foto" :src="img6" alt="img" />
+      <img class="foto" :src="img7" alt="img" />
+      <img class="foto" :src="img99" alt="img" />
     </div>
   </div>
 </template>
@@ -14,6 +18,10 @@ import img1 from '/public/1.png';
 import img2 from '/public/2.png';
 import img3 from '/public/3.png';
 import img4 from '/public/4.png';
+import img5 from '/public/1.svg';
+import img6 from '/public/2.svg';
+import img7 from '/public/3.svg';
+import img99 from '/public/1.gif';
 </script>
 
 <style scoped>
