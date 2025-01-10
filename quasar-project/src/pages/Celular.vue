@@ -264,7 +264,7 @@
         <div class="row col-12 items-center">
           <div class="row col-12 text-center items-center">
             <div class="col-12" id="lottie-container"/>
-            <div class="col-12" id="lottie-container2"/>
+            <div class="col-12" id="outro"/>
           </div>
           <div class="row col-12 text-center">
             <div class="row col-12 items-center text-center" style="font-size: 20px; margin-top: 10px">
@@ -405,7 +405,7 @@ onMounted(() => {
     animationData: contato, // Use os dados da animação diretamente
   });
   lottie.loadAnimation({
-    container: document.getElementById('lottie-container2'), // Contêiner onde a animação será renderizada
+    container: document.getElementById('outro'), // Contêiner onde a animação será renderizada
     renderer: 'svg', // Formato da renderização
     loop: true, // Define se a animação será em loop
     autoplay: true, // Define se a animação será iniciada automaticamente
@@ -425,6 +425,11 @@ onMounted(() => {
 }
 
 #lottie-container {
+  width: 360px; /* Largura do contêiner */
+  height: 360px; /* Altura do contêiner */
+}
+
+#outro {
   width: 360px; /* Largura do contêiner */
   height: 360px; /* Altura do contêiner */
 }
