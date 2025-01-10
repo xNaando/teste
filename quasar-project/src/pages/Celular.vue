@@ -254,25 +254,20 @@
       </div>
       <div class="col-12" id="contato" style="margin-top: 30px">
         <div class="row col-12 items-center">
-          <div class="text-blue-4" style="font-size: 32px; font-weight: bold; padding-left: 10px">
-            CONTATO
+          <div class="col-12 text-blue-4 text-center" style="font-size: 32px; font-weight: bold; padding-left: 10px; line-height: 1.1">
+            Deseja obter um orçamento?
+          </div>
+          <div class="col-12 text-center" style="font-size: 32px; font-weight: bold; padding-left: 10px; margin-top: 20px; line-height: 1.1">
+            Entre em Contato!
           </div>
         </div>
-        <div class="row col-12 items-center" style="margin-top: 30px; margin-left: 70px">
-          <div class="col-12 text-center" style="margin-bottom: -100px">
-            <div class="col-12 text-blue-4" style="font-size: 40px; font-weight: bold">
-              Deseja obter um orçamento?
-            </div>
-            <div class="col-12" style="font-size: 40px; font-weight: bold">
-              Entre em contato!
-            </div>
+        <div class="row col-12 items-center">
+          <div class="row col-12 text-center items-center">
+            <div class="col-12" id="lottie-container"/>
+            <div class="col-12" id="lottie-container2"/>
           </div>
-          <div class="row col-7 text-center items-center">
-            <div class="col-6" id="lottie-container"/>
-            <div class="col-6" id="lottie-container2"/>
-          </div>
-          <div class="col-5">
-            <div class="row col-12 items-center" style="font-size: 20px; margin-top: 10px">
+          <div class="row col-12 text-center">
+            <div class="row col-12 items-center text-center" style="font-size: 20px; margin-top: 10px">
               <a
                 href="https://www.google.com/maps/place/Av.+Eugênio+Fischer,+300+-+Cing,+Guarujá+-+SP,+11420-730"
                 target="_blank"
@@ -284,7 +279,7 @@
               </a>
             </div>
             <div
-              class="row col-12 items-center"
+              class="col-12 items-center"
               style="font-size: 20px; margin-top: 10px; cursor: pointer"
               @click="abrirWhatsApp('13974052840')"
             >
@@ -292,7 +287,7 @@
               (13) 97405-2840
             </div>
             <div
-              class="row col-12 items-center"
+              class="col-12 items-center"
               style="font-size: 20px; margin-top: 10px; cursor: pointer"
               @click="abrirWhatsApp('13996645670')"
             >
@@ -300,7 +295,7 @@
               (13) 99664-5670
             </div>
             <div
-              class="row col-12 items-center"
+              class="col-12 items-center"
               style="font-size: 20px; margin-top: 10px; cursor: pointer"
               @click="abrirWhatsApp('13997191309')"
             >
@@ -308,7 +303,7 @@
               (13) 99719-1309
             </div>
             <div
-              class="row col-12 items-center"
+              class="col-12 items-center"
               style="font-size: 20px; margin-top: 10px; cursor: pointer"
               @click="abrirInstagram('w.e_servicosnauticos')"
             >
@@ -320,18 +315,15 @@
       </div>
       <div class="col-12" id="localizacao" style="margin-top: 50px">
         <div class="row col-12 items-center">
-          <div class="text-blue-4" style="font-size: 46px; font-weight: bold; padding-left: 30px">
+          <div class="text-blue-4" style="font-size: 32px; font-weight: bold; padding-left: 10px">
             LOCALIZAÇÃO
           </div>
-          <div class="col" style="padding-left: 20px; padding-right: 20px;">
-            <div style="height: 5px; background-color: #ccc; width: 100%;"></div>
-          </div>
         </div>
-        <div class="row col-12 justify-center items-center text-center" style="margin-top: 50px">
+        <div class="row col-12 justify-center items-center text-center" style="margin-top: 10px">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.819508282658!2d-46.24340698444323!3d-23.95793098448871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03389eb90f0b%3A0x3f14a136ab96a979!2sAv.%20Eug%C3%AAnio%20Fischer%2C%20300%20-%20Cing%2C%20Guaruj%C3%A1%20-%20SP%2C%2011420-730!5e0!3m2!1sen!2sbr!4v1696781234567!5m2!1sen!2sbr"
             width="95%"
-            height="600"
+            height="300"
             style="border: 0;"
             allowfullscreen=""
             loading="lazy"
@@ -341,8 +333,8 @@
       </div>
     </div>
     <div class="row col-12 bg-blue-4 items-center justify-center text-center text-white"
-         style="height: 70px; font-size: 16px; font-weight: 500; margin-top: 50px">
-      <i class="fas fa-copyright" style="margin-right: 5px;"></i>
+         style="height: 70px; font-size: 12px; font-weight: 500; margin-top: 30px">
+      <i class="fas fa-copyright" style="padding-right: 5px;"></i>
       W.E Serviços Náuticos - Todos os direitos reservados
     </div>
   </q-layout>
@@ -378,7 +370,7 @@ import img1x10 from '/public/images/10.1.jpg'
 import img1x11 from '/public/images/11.1.jpg'
 import img1x12 from '/public/images/12.1.jpg'
 import contato from '/public/images/contato.json'
-import seta from '/public/images/seta.json'
+import seta2 from '/public/images/seta2.json'
 import {ref} from "vue";
 
 const img1Grande = ref(false)
@@ -417,7 +409,7 @@ onMounted(() => {
     renderer: 'svg', // Formato da renderização
     loop: true, // Define se a animação será em loop
     autoplay: true, // Define se a animação será iniciada automaticamente
-    animationData: seta, // Use os dados da animação diretamente
+    animationData: seta2, // Use os dados da animação diretamente
   });
 });
 </script>
@@ -433,7 +425,7 @@ onMounted(() => {
 }
 
 #lottie-container {
-  width: 400px; /* Largura do contêiner */
-  height: 400px; /* Altura do contêiner */
+  width: 360px; /* Largura do contêiner */
+  height: 360px; /* Altura do contêiner */
 }
 </style>
