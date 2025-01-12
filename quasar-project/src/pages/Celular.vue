@@ -82,55 +82,55 @@
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            04. Letreiros
+            04. Pintura e retoque em poliéster coats
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            05. Pintura de faixas personalizadas
+            05. Pintura e retoque em PU
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            06. Alongamento de plataforma
+            06. Letreiros
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            07. Troca de sicaflex
+            07. Pintura de faixas personalizadas
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            08. Polimento com espelhamento
+            08. Alongamento de plataforma
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            09. Lixamento de Teka
+            09. Troca de sicaflex
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            10. Aplicação de tinta anti-crustante
+            10. Polimento com espelhamento
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            11. Modificação estrutural
+            11. Lixamento de Teka
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            12. Aplicação de Propspeed
+            12. Aplicação de tinta anti-crustante
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            13. Fabricação de plataforma submergível
+            13. Modificação estrutural
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            14. Fabricação de teka
+            14. Aplicação de Propspeed
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            15. Fabricação espaço gourmand
+            15. Fabricação de plataforma submergível
           </div>
           <div class="col-12" style="height: 2px"/>
           <div class="col-12 bg-blue-4 q-pa-sm">
-            16. Fabricação HARD TOP
+            16. Fabricação de teka
           </div>
         </div>
       </div>

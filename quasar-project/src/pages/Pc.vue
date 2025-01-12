@@ -95,52 +95,52 @@
               03. Pintura e retoque em gel coats
             </div>
             <div class="col">
-              04. Letreiros
+              04. Pintura e retoque em poliéster coats
             </div>
           </div>
           <div class="col-12" style="height: 5px"/>
           <div class="row col-12 q-pa-lg bg-blue-4 text-white" style="font-size: 15px">
             <div class="col">
-              05. Pintura de faixas personalizadas
+              05. Pintura e retoque em PU
             </div>
             <div class="col">
-              06. Alongamento de plataforma
+              06. Letreiros
             </div>
             <div class="col">
-              07. Troca de sicaflex
+              07. Pintura de faixas personalizadas
             </div>
             <div class="col">
-              08. Polimento com espelhamento
-            </div>
-          </div>
-          <div class="col-12" style="height: 5px"/>
-          <div class="row col-12 q-pa-lg bg-blue-4 text-white" style="font-size: 15px">
-            <div class="col">
-              09. Lixamento de Teka
-            </div>
-            <div class="col">
-              10. Aplicação de tinta anti-crustante
-            </div>
-            <div class="col">
-              11. Modificação estrutural
-            </div>
-            <div class="col">
-              12. Aplicação de Propspeed
+              08. Alongamento de plataforma
             </div>
           </div>
           <div class="col-12" style="height: 5px"/>
           <div class="row col-12 q-pa-lg bg-blue-4 text-white" style="font-size: 15px">
             <div class="col">
-              13. Fabricação de plataforma submergível
+              09. Troca de sicaflex
             </div>
             <div class="col">
-              14. Fabricação de teka
+              10. Polimento com espelhamento
             </div>
             <div class="col">
-              15. Fabricação espaço gourmand
+              11. Lixamento de Teka
             </div>
             <div class="col">
-              16. Fabricação HARD TOP
+              12. Aplicação de tinta anti-crustante
+            </div>
+          </div>
+          <div class="col-12" style="height: 5px"/>
+          <div class="row col-12 q-pa-lg bg-blue-4 text-white" style="font-size: 15px">
+            <div class="col">
+              13. Modificação estrutural
+            </div>
+            <div class="col">
+              14. Aplicação de Propspeed
+            </div>
+            <div class="col">
+              15. Fabricação de plataforma submergível
+            </div>
+            <div class="col">
+              16. Fabricação de teka
             </div>
           </div>
         </div>
