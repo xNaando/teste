@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div class="oi">
-      <img class="foto" :src="img4" alt="img" />
       <img class="foto" :src="img1" alt="img" />
       <img class="foto" :src="img2" alt="img" />
       <img class="foto" :src="img3" alt="img" />
+      <img class="foto" :src="img4" alt="img" />
       <img class="foto" :src="img5" alt="img" />
       <img class="foto" :src="img6" alt="img" />
       <img class="foto" :src="img7" alt="img" />
@@ -13,13 +13,13 @@
 </template>
 
 <script setup lang="ts">
-import img1 from '/public/1.png';
-import img2 from '/public/2.png';
+import img1 from '/public/1.gif';
+import img2 from '/public/2.gif';
 import img3 from '/public/3.gif';
-import img4 from '/public/4.png';
+import img4 from '/public/4.gif';
 import img5 from '/public/5.gif';
-import img6 from '/public/6.gif';
-import img7 from '/public/7.png';
+import img6 from '/public/6.png';
+import img7 from '/public/7.gif';
 </script>
 
 <style scoped>
