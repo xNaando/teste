@@ -50,7 +50,8 @@
           <div class="row col-12" style="font-size: 14px;">
             <div class="col-12">
               A W.E. Serviços Náuticos é uma empresa especializada em pintura e reforma de embarcações, localizada em
-              Guarujá, SP. Com mais de 12 anos de experiência no setor, nossa missão é proporcionar aos nossos clientes serviços de
+              Guarujá, SP. Com mais de 12 anos de experiência no setor, nossa missão é proporcionar aos nossos clientes
+              serviços de
               alta qualidade, que garantam a durabilidade, segurança e beleza de suas embarcações. Contamos com uma
               equipe altamente capacitada, dedicada e comprometida em atender às necessidades de cada cliente,
               oferecendo soluções personalizadas para cada tipo de embarcação.
@@ -153,115 +154,122 @@
             <div style="height: 5px; background-color: #ccc; width: 100%;"></div>
           </div>
         </div>
-        <div class="row col-12">
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img1Grande = true" :src="img1" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img1Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img1Grande = false" :src="img1x1" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
+        <div class="row col-12 justify-center" style="margin-top: 30px">
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v1"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
           </div>
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img2Grande = true" :src="img2" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img2Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img2Grande = false" :src="img1x2" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v2"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
           </div>
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img3Grande = true" :src="img3" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img3Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img3Grande = false" :src="img1x3" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v3"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
           </div>
-        </div>
-        <div class="row col-12">
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img4Grande = true" :src="img4" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img4Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img4Grande = false" :src="img1x4" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v4"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
           </div>
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img5Grande = true" :src="img5" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img5Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img5Grande = false" :src="img1x5" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
-          </div>
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img6Grande = true" :src="img6" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img6Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img6Grande = false" :src="img1x6" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
-          </div>
-        </div>
-        <div class="row col-12">
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img7Grande = true" :src="img7" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img7Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img7Grande = false" :src="img1x7" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
-          </div>
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img8Grande = true" :src="img8" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img8Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img8Grande = false" :src="img1x8" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
-          </div>
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img10Grande = true" :src="img10" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img10Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img10Grande = false" :src="img1x10" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v5"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
           </div>
         </div>
-        <div class="row col-12">
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img11Grande = true" :src="img11" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img11Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img11Grande = false" :src="img1x11" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
+        <div class="row col-12 justify-center">
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v6"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
           </div>
-          <div class="col q-pa-md" style="cursor: pointer">
-            <q-img @click="img12Grande = true" :src="img12" alt="img" style="height: 100%; width: 100%"/>
-            <q-dialog v-model="img12Grande">
-              <div style="height: auto; width: 100%; max-width: 1202px; overflow: hidden;">
-                <q-img @click="img12Grande = false" :src="img1x12" alt="img"
-                       style="height: auto; width: 100%; cursor: pointer"/>
-              </div>
-            </q-dialog>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v7"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v8"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v9"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v10"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
           </div>
         </div>
       </div>
-      <div class="col-12" id="contato" style="margin-top: 100px">
+      <div class="col-12" id="contato" style="margin-top: 50px">
         <div class="row col-12 items-center">
           <div class="text-blue-4" style="font-size: 46px; font-weight: bold; padding-left: 30px">
             CONTATO
@@ -275,7 +283,7 @@
             <div class="col-12 text-blue-4" style="font-size: 40px; font-weight: bold">
               Deseja obter um orçamento?
             </div>
-            <div class="col-12" style="font-size: 40px; font-weight: bold">
+            <div class="col-12" style="font-size: 40px; font-weight: bold; color: #203884">
               Entre em contato!
             </div>
           </div>
@@ -367,28 +375,16 @@ import lottie from 'lottie-web';
 import logo from '/public/images/logo.png'
 import sobrenos from '/public/images/sobrenos.png'
 import video from '/public/images/video.mp4'
-import img1 from '/public/images/1.jpg'
-import img2 from '/public/images/2.jpg'
-import img3 from '/public/images/3.jpg'
-import img4 from '/public/images/4.jpg'
-import img5 from '/public/images/5.jpg'
-import img6 from '/public/images/6.jpg'
-import img7 from '/public/images/7.jpg'
-import img8 from '/public/images/8.jpg'
-import img10 from '/public/images/10.jpg'
-import img11 from '/public/images/11.jpg'
-import img12 from '/public/images/12.jpg'
-import img1x1 from '/public/images/1.1.jpg'
-import img1x2 from '/public/images/2.1.jpg'
-import img1x3 from '/public/images/3.1.jpg'
-import img1x4 from '/public/images/4.1.jpg'
-import img1x5 from '/public/images/5.1.jpg'
-import img1x6 from '/public/images/6.1.jpg'
-import img1x7 from '/public/images/7.1.jpg'
-import img1x8 from '/public/images/8.1.jpg'
-import img1x10 from '/public/images/10.1.jpg'
-import img1x11 from '/public/images/11.1.jpg'
-import img1x12 from '/public/images/12.1.jpg'
+import v1 from '/public/images/v1.mp4'
+import v2 from '/public/images/v2.mp4'
+import v3 from '/public/images/v3.mp4'
+import v4 from '/public/images/v4.mp4'
+import v5 from '/public/images/v5.mp4'
+import v6 from '/public/images/v6.mp4'
+import v7 from '/public/images/v7.mp4'
+import v8 from '/public/images/v8.mp4'
+import v9 from '/public/images/v9.mp4'
+import v10 from '/public/images/v10.mp4'
 import contato from '/public/images/contato.json'
 import seta from '/public/images/seta.json'
 import {ref} from "vue";
@@ -405,19 +401,6 @@ const navigateTo = (section) => {
     }
   }
 }
-
-const img1Grande = ref(false)
-const img2Grande = ref(false)
-const img3Grande = ref(false)
-const img4Grande = ref(false)
-const img5Grande = ref(false)
-const img6Grande = ref(false)
-const img7Grande = ref(false)
-const img8Grande = ref(false)
-const img9Grande = ref(false)
-const img10Grande = ref(false)
-const img11Grande = ref(false)
-const img12Grande = ref(false)
 
 function abrirWhatsApp(numero) {
   const mensagem = encodeURIComponent('Olá, gostaria de solicitar um orçamento.');
