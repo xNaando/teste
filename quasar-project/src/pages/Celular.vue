@@ -237,7 +237,6 @@ import {onMounted} from 'vue';
 import logo from '/public/images/logo.png'
 import sobrenos from '/public/images/sobrenos.png'
 import video from '/public/images/video.mp4'
-import contato from '/public/images/contato.json'
 import seta2 from '/public/images/seta2.json'
 import {ref} from "vue";
 import lottie from "lottie-web";
@@ -255,14 +254,7 @@ function abrirInstagram(username) {
 
 onMounted(() => {
   lottie.loadAnimation({
-    container: document.getElementById('lottie-container3'), // Contêiner onde a animação será renderizada
-    renderer: 'svg', // Formato da renderização
-    loop: true, // Define se a animação será em loop
-    autoplay: true, // Define se a animação será iniciada automaticamente
-    animationData: contato, // Use os dados da animação diretamente
-  });
-  lottie.loadAnimation({
-    container: document.getElementById('lottie-container4'), // Contêiner onde a animação será renderizada
+    container: document.getElementById('lottie-container2'), // Contêiner onde a animação será renderizada
     renderer: 'svg', // Formato da renderização
     loop: true, // Define se a animação será em loop
     autoplay: true, // Define se a animação será iniciada automaticamente

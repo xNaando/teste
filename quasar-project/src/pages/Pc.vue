@@ -287,58 +287,59 @@
               Entre em contato!
             </div>
           </div>
-          <div class="row col-7 text-center items-center">
-            <div class="col-6" id="lottie-container"/>
-            <div class="col-6" id="lottie-container2"/>
-          </div>
-          <div class="col-5">
-            <div class="row col-12 items-center" style="font-size: 20px; margin-top: 10px">
-              <a
-                href="https://www.google.com/maps/place/Av.+Eugênio+Fischer,+300+-+Cing,+Guarujá+-+SP,+11420-730"
-                target="_blank"
-                rel="noopener noreferrer"
-                style="text-decoration: none; color: inherit"
+          <div class="row justify-center text-center items-center col-12" style="margin-top: -50px">
+            <div class="row col-6 text-center items-center">
+              <div class="col-12" id="lottie-container"/>
+            </div>
+            <div class="col-6">
+              <div class="row col-12 items-center" style="font-size: 20px; margin-top: 10px">
+                <a
+                  href="https://www.google.com/maps/place/Av.+Eugênio+Fischer,+300+-+Cing,+Guarujá+-+SP,+11420-730"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="text-decoration: none; color: inherit"
+                >
+                  <i class="fas fa-map-marker-alt" style="font-size: 24px; color: red; padding-right: 10px"></i>
+                  Av. Eugênio Fischer, 300 - Cing, Guarujá - SP, 11420-730
+                </a>
+              </div>
+              <div
+                class="row col-12 items-center"
+                style="font-size: 20px; margin-top: 10px; cursor: pointer"
+                @click="abrirWhatsApp('13974052840')"
               >
-                <i class="fas fa-map-marker-alt" style="font-size: 24px; color: red; padding-right: 10px"></i>
-                Av. Eugênio Fischer, 300 - Cing, Guarujá - SP, 11420-730
-              </a>
-            </div>
-            <div
-              class="row col-12 items-center"
-              style="font-size: 20px; margin-top: 10px; cursor: pointer"
-              @click="abrirWhatsApp('13974052840')"
-            >
-              <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
-              (13) 97405-2840
-            </div>
-            <div
-              class="row col-12 items-center"
-              style="font-size: 20px; margin-top: 10px; cursor: pointer"
-              @click="abrirWhatsApp('13996645670')"
-            >
-              <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
-              (13) 99664-5670
-            </div>
-            <div
-              class="row col-12 items-center"
-              style="font-size: 20px; margin-top: 10px; cursor: pointer"
-              @click="abrirWhatsApp('13997191309')"
-            >
-              <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
-              (13) 99719-1309
-            </div>
-            <div
-              class="row col-12 items-center"
-              style="font-size: 20px; margin-top: 10px; cursor: pointer"
-              @click="abrirInstagram('w.e_servicosnauticos')"
-            >
-              <i class="fab fa-instagram" style="font-size: 24px; color: #E1306C; padding-right: 10px"></i>
-              w.e_servicosnauticos
+                <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
+                (13) 97405-2840
+              </div>
+              <div
+                class="row col-12 items-center"
+                style="font-size: 20px; margin-top: 10px; cursor: pointer"
+                @click="abrirWhatsApp('13996645670')"
+              >
+                <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
+                (13) 99664-5670
+              </div>
+              <div
+                class="row col-12 items-center"
+                style="font-size: 20px; margin-top: 10px; cursor: pointer"
+                @click="abrirWhatsApp('13997191309')"
+              >
+                <i class="fab fa-whatsapp" style="font-size: 24px; color: green; padding-right: 10px"></i>
+                (13) 99719-1309
+              </div>
+              <div
+                class="row col-12 items-center"
+                style="font-size: 20px; margin-top: 10px; cursor: pointer"
+                @click="abrirInstagram('w.e_servicosnauticos')"
+              >
+                <i class="fab fa-instagram" style="font-size: 24px; color: #E1306C; padding-right: 10px"></i>
+                w.e_servicosnauticos
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-12" id="localizacao" style="margin-top: 50px">
+      <div class="col-12" id="localizacao" style="margin-top: -10px">
         <div class="row col-12 items-center">
           <div class="text-blue-4" style="font-size: 46px; font-weight: bold; padding-left: 30px">
             LOCALIZAÇÃO
@@ -385,7 +386,6 @@ import v7 from '/public/images/v7.mp4'
 import v8 from '/public/images/v8.mp4'
 import v9 from '/public/images/v9.mp4'
 import v10 from '/public/images/v10.mp4'
-import contato from '/public/images/contato.json'
 import seta from '/public/images/seta.json'
 import {ref} from "vue";
 
@@ -416,13 +416,6 @@ function abrirInstagram(username) {
 onMounted(() => {
   lottie.loadAnimation({
     container: document.getElementById('lottie-container'), // Contêiner onde a animação será renderizada
-    renderer: 'svg', // Formato da renderização
-    loop: true, // Define se a animação será em loop
-    autoplay: true, // Define se a animação será iniciada automaticamente
-    animationData: contato, // Use os dados da animação diretamente
-  });
-  lottie.loadAnimation({
-    container: document.getElementById('lottie-container2'), // Contêiner onde a animação será renderizada
     renderer: 'svg', // Formato da renderização
     loop: true, // Define se a animação será em loop
     autoplay: true, // Define se a animação será iniciada automaticamente
