@@ -140,22 +140,141 @@
             PINTURAS NÁUTICAS
           </div>
         </div>
+        <div class="row col-12 justify-center" style="margin-top: -80px">
+          <div class="col q-mr-xs">
+            <video
+              class="no-margin no-padding"
+              :src="v1"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v2"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+        </div>
+        <div class="row col-12 justify-center" style="margin-top: -186px">
+          <div class="col q-mr-xs">
+            <video
+              class="no-margin no-padding"
+              :src="v3"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v4"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+        </div>
+        <div class="row col-12 justify-center" style="margin-top: -186px">
+          <div class="col q-mr-xs">
+            <video
+              class="no-margin no-padding"
+              :src="v5"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v6"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+        </div>
+        <div class="row col-12 justify-center" style="margin-top: -186px">
+          <div class="col q-mr-xs">
+            <video
+              class="no-margin no-padding"
+              :src="v7"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v8"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+        </div>
+        <div class="row col-12 justify-center" style="margin-top: -186px">
+          <div class="col q-mr-xs">
+            <video
+              class="no-margin no-padding"
+              :src="v9"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+          <div class="col">
+            <video
+              class="no-margin no-padding"
+              :src="v10"
+              autoplay
+              loop
+              muted
+              playsinline
+              style="height: 500px; width: 100%;"
+            ></video>
+          </div>
+        </div>
       </div>
-      <div class="col-12" id="contato" style="margin-top: 30px">
+      <div class="col-12" id="contato" style="margin-top: -50px">
         <div class="row col-12 items-center">
           <div class="col-12 text-blue-4 text-center"
                style="font-size: 32px; font-weight: bold; padding-left: 10px; line-height: 1.1">
             Deseja obter um orçamento?
           </div>
           <div class="col-12 text-center"
-               style="font-size: 32px; font-weight: bold; padding-left: 10px; margin-top: 20px; line-height: 1.1">
+               style="font-size: 32px; font-weight: bold; padding-left: 10px; margin-top: 20px; line-height: 1.1; color: #203884">
             Entre em Contato!
           </div>
         </div>
         <div class="row col-12 items-center">
           <div class="row col-12 text-center justify-center items-center">
-            <div class="col-12" id="lottie-container2"></div>
-            <div class="col-12" style="margin-top: -150px; margin-bottom: -60px" id="lottie-container4"></div>
+            <div class="col-12" id="lottie-container2" style="margin-top: -80px; margin-bottom: -50px"></div>
           </div>
           <div class="row col-12 text-center">
             <div class="row col-12 items-center text-center" style="font-size: 20px; margin-top: 10px">
@@ -240,6 +359,16 @@ import video from '/public/images/video.mp4'
 import seta2 from '/public/images/seta2.json'
 import {ref} from "vue";
 import lottie from "lottie-web";
+import v1 from '/public/images/v1.mp4'
+import v2 from '/public/images/v2.mp4'
+import v3 from '/public/images/v3.mp4'
+import v4 from '/public/images/v4.mp4'
+import v5 from '/public/images/v5.mp4'
+import v6 from '/public/images/v6.mp4'
+import v7 from '/public/images/v7.mp4'
+import v8 from '/public/images/v8.mp4'
+import v9 from '/public/images/v9.mp4'
+import v10 from '/public/images/v10.mp4'
 
 function abrirWhatsApp(numero) {
   const mensagem = encodeURIComponent('Olá, gostaria de solicitar um orçamento.');
