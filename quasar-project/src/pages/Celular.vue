@@ -397,24 +397,20 @@ function abrirInstagram(username) {
 }
 
 onMounted(() => {
-  if (!document.getElementById('lottie-container3').hasChildNodes()) {
-    lottie.loadAnimation({
-      container: document.getElementById('lottie-container3'),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      animationData: contato,
-    });
-  }
-  if (!document.getElementById('lottie-container4').hasChildNodes()) {
-    lottie.loadAnimation({
-      container: document.getElementById('lottie-container4'),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      animationData: seta2,
-    });
-  }
+  lottie.loadAnimation({
+    container: document.getElementById('lottie-container3'), // Contêiner onde a animação será renderizada
+    renderer: 'svg', // Formato da renderização
+    loop: true, // Define se a animação será em loop
+    autoplay: true, // Define se a animação será iniciada automaticamente
+    animationData: contato, // Use os dados da animação diretamente
+  });
+  lottie.loadAnimation({
+    container: document.getElementById('lottie-container4'), // Contêiner onde a animação será renderizada
+    renderer: 'svg', // Formato da renderização
+    loop: true, // Define se a animação será em loop
+    autoplay: true, // Define se a animação será iniciada automaticamente
+    animationData: seta2, // Use os dados da animação diretamente
+  });
 });
 </script>
 
