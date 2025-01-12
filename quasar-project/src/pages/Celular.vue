@@ -154,7 +154,7 @@
         </div>
         <div class="row col-12 items-center">
           <div class="row col-12 text-center justify-center items-center">
-            <div class="col-12" id="lottie-container3"></div>
+            <div class="col-12" id="lottie-container2"></div>
             <div class="col-12" style="margin-top: -150px; margin-bottom: -60px" id="lottie-container4"></div>
           </div>
           <div class="row col-12 text-center">
@@ -273,12 +273,7 @@ onMounted(() => {
   font-weight: 500;
 }
 
-#lottie-container3 {
-  width: 360px; /* Largura do contêiner */
-  height: 360px; /* Altura do contêiner */
-}
-
-#lottie-container4 {
+#lottie-container2 {
   width: 360px; /* Largura do contêiner */
   height: 360px; /* Altura do contêiner */
 }

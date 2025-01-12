@@ -433,9 +433,4 @@ onMounted(() => {
   font-size: 16px;
   font-weight: 500;
 }
-
-#lottie-container {
-  width: 400px; /* Largura do contêiner */
-  height: 400px; /* Altura do contêiner */
-}
 </style>
